@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon Theme</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="../index.html" class="brand">Demo Theme Gallery</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html">Main Index</a>
+      <a href="#about">About</a>
+      <a href="#more-themes">Other Themes</a>
+    </nav>
+    <a class="btn btn-primary desktop-btn" href="../index.html">Back to Main Index</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Salon Website Demo</span>
+        <h1>An elegant website theme for salons and beauty studios.</h1>
+        <p class="lead">Sample salon layout with back-to-main navigation and a bottom image slider for the other themes.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="../index.html">Back to Main Index</a>
+          <a class="btn btn-secondary" href="#more-themes">Browse Other Themes</a>
+        </div>
+      </div>
+      <div class="visual-card">
+        <div class="visual-overlay">
+          <p class="visual-label">Separate Files</p>
+          <h3>Salon Theme</h3>
+          <span>HTML + CSS + JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Theme Features</p>
+          <h2>Easy to duplicate for client projects</h2>
+        </div>
+        <p class="section-text">Papalitan mo lang ang content, colors, images, at contact links kapag gagawin mo na itong real client site.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">01</div><h3>Separate files</h3><p>May sariling index.html, style.css, at script.js ang bawat theme folder.</p></article>
+        <article class="feature-card"><div class="feature-icon">02</div><h3>Back to main index</h3><p>May balik sa main index sa menu at meron ding card sa bottom slider.</p></article>
+        <article class="feature-card"><div class="feature-icon">03</div><h3>Theme slider</h3><p>May image slider sa baba na may links papunta sa other themes.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="more-themes">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Theme Slider</p>
+          <h2>Explore other themes</h2>
+        </div>
+        <p class="section-text">Kasama rito ang Main Index at links ng other themes.</p>
+      </div>
+      <div class="slider-wrap">
+        <button class="slider-btn" id="prevBtn" aria-label="Previous">‹</button>
+        <div class="slider-track" id="sliderTrack">
+          
+<a class="slider-card" href="../index.html">
+  <div class="slider-image main-index-image"></div>
+  <div class="slider-body">
+    <p class="slider-label">Main Index</p>
+    <h3>Back to Demo Gallery</h3>
+    <span>Return to the root homepage</span>
+  </div>
+</a>
+
+<a class="slider-card" href="../cafe/index.html">
+  <div class="slider-image cafe-image"></div>
+  <div class="slider-body">
+    <p class="slider-label">Other Theme</p>
+    <h3>Cafe Theme</h3>
+    <span>Open cafe theme</span>
+  </div>
+</a>
+
+<a class="slider-card" href="../laundry/index.html">
+  <div class="slider-image laundry-image"></div>
+  <div class="slider-body">
+    <p class="slider-label">Other Theme</p>
+    <h3>Laundry Theme</h3>
+    <span>Open laundry theme</span>
+  </div>
+</a>
+        </div>
+        <button class="slider-btn" id="nextBtn" aria-label="Next">›</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <div>
+      <strong>Salon Theme</strong>
+      <p>Theme page inside its own folder.</p>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html">Main Index</a>
+      <a href="../cafe/index.html">Cafe</a>
+      <a href="../salon/index.html">Salon</a>
+      <a href="../laundry/index.html">Laundry</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Theme Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="./index.html" class="brand">Demo Theme Gallery</a>
+    <nav class="nav-links">
+      <a href="#themes">Themes</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="#themes" class="btn btn-primary">View Themes</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Portfolio Demo Website</span>
+        <h1>Choose a sample website theme for your business.</h1>
+        <p class="lead">Root index ito, tapos may hiwalay na folders sa root para sa bawat theme. Bawat folder may sariling index.html, style.css, at script.js.</p>
+        <div class="hero-actions">
+          <a href="#themes" class="btn btn-primary">Browse Themes</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="glass-card">
+          <p class="small-label">Structure</p>
+          <h3>Main index + theme folders</h3>
+          <span>Ready for GitHub + Cloudflare Pages</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="themes">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Themes</p>
+          <h2>Available sample themes</h2>
+        </div>
+        <p class="section-text">Pili ka ng style. Lahat ng theme pages may back to main index sa menu at sa bottom slider.</p>
+      </div>
+
+      <div class="theme-grid">
+        <article class="theme-card">
+          <div class="theme-image cafe-image"></div>
+          <div class="theme-body">
+            <h3>Cafe Theme</h3>
+            <p>Warm and cozy website for coffee shops and small cafes.</p>
+            <a class="btn btn-primary full" href="./cafe/index.html">Open Cafe Theme</a>
+          </div>
+        </article>
+
+        <article class="theme-card">
+          <div class="theme-image salon-image"></div>
+          <div class="theme-body">
+            <h3>Salon Theme</h3>
+            <p>Clean and elegant website for salons and beauty businesses.</p>
+            <a class="btn btn-primary full" href="./salon/index.html">Open Salon Theme</a>
+          </div>
+        </article>
+
+        <article class="theme-card">
+          <div class="theme-image laundry-image"></div>
+          <div class="theme-body">
+            <h3>Laundry Theme</h3>
+            <p>Simple and practical website for laundry and cleaning services.</p>
+            <a class="btn btn-primary full" href="./laundry/index.html">Open Laundry Theme</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="about">
+    <div class="container info-card">
+      <p class="section-label">Folder Structure</p>
+      <h2>Ganito ang setup</h2>
+      <pre>demo-theme-gallery/
+├── index.html
+├── style.css
+├── script.js
+├── cafe/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── salon/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── laundry/
+    ├── index.html
+    ├── style.css
+    └── script.js</pre>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <div>
+      <strong>Demo Theme Gallery</strong>
+      <p>Main portfolio index for your sample websites.</p>
+    </div>
+    <div class="footer-links">
+      <a href="./cafe/index.html">Cafe</a>
+      <a href="./salon/index.html">Salon</a>
+      <a href="./laundry/index.html">Laundry</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
